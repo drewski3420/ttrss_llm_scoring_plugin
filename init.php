@@ -1,7 +1,7 @@
 <?php
-class Llm_Score extends Plugin {
+class Llm_Scoring extends Plugin {
   private $host;
-  private $pdo;
+  protected $pdo;
 
   // -----------------------------
   // Plugin metadata
